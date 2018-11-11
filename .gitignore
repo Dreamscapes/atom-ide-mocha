@@ -7,11 +7,12 @@ node_modules
 .npmrc
 local.mk
 
+# TODO: OMFG I CANNOT BUILD ATOM PACKAGES WITH A COMPILE-AT-PUBLISH STEP??? DAFUQ???
 # Compiled files
-**/*.js
-**/*.js.map
-!babel.config.js
-!**/.*.js
+# **/*.js
+# **/*.js.map
+# !babel.config.js
+# !**/.*.js
 # Fix for Atom bug - the above re-inclusion of .*.js files incorrectly re-adds also any *.test.js
 # files. Git itself does not need this.
 **/*.test.js
