@@ -1,0 +1,6 @@
+--colors
+--recursive
+--check-leaks
+--require source-map-support/register
+--exclude **/node_modules/**
+test **/*.test.js

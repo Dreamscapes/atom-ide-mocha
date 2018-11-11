@@ -1,0 +1,69 @@
+{
+  "name": "ide-mocha",
+  "description": "Send your Mocha test suite's progress to Atom and display it using Atom-IDE-UI components",
+  "version": "0.0.0",
+  "author": {
+    "name": "Robert Rossmann",
+    "email": "rr.rossmann@me.com"
+  },
+  "bugs": "https://github.com/Dreamscapes/atom-ide-mocha/issues",
+  "consumedServices": {
+    "atom-ide-busy-signal": {
+      "versions": {
+        "^0.1.0": "consumeBusySignal"
+      }
+    },
+    "console": {
+      "versions": {
+        "^0.1.0": "consumeConsole"
+      }
+    },
+    "linter-indie": {
+      "versions": {
+        "^2.0.0": "consumeLinter"
+      }
+    }
+  },
+  "contributors": [],
+  "dependencies": {
+    "hash-to-port": "^1.0.0",
+    "stack-utils": "^1.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-function-bind": "^7.0.0",
+    "@babel/plugin-syntax-object-rest-spread": "^7.0.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.0.0",
+    "@commitlint/cli": "^7.0.0",
+    "@commitlint/config-conventional": "^7.0.0",
+    "@strv/eslint-config-javascript": "^9.0.0",
+    "babel-eslint": "^10.0.1",
+    "chai": "^4.2.0",
+    "eslint": "^5.4.0",
+    "lerna": "^3.4.0",
+    "mocha": "^5.0.0",
+    "nyc": "^13.0.1",
+    "remark-cli": "^6.0.0",
+    "remark-preset-lint-consistent": "^2.0.2",
+    "remark-preset-lint-markdown-style-guide": "^2.1.2",
+    "remark-preset-lint-recommended": "^3.0.2",
+    "source-map-support": "^0.5.0"
+  },
+  "engines": {
+    "atom": "^1.32.0"
+  },
+  "homepage": "https://github.com/Dreamscapes/atom-ide-mocha",
+  "keywords": [
+    "atom",
+    "ide",
+    "mocha"
+  ],
+  "license": "BSD-3-Clause",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Dreamscapes/atom-ide-mocha.git"
+  }
+}
