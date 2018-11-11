@@ -1,7 +1,7 @@
 {
   "name": "ide-mocha",
   "description": "Send your Mocha test suite's progress to Atom and display it using Atom-IDE-UI components",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": {
     "name": "Robert Rossmann",
     "email": "rr.rossmann@me.com"
