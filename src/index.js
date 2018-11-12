@@ -1,8 +1,0 @@
-"use strict";
-
-const {
-  IdeMocha
-} = require('./ide-mocha');
-
-module.exports = new IdeMocha();
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4Lm1qcyJdLCJuYW1lcyI6WyJJZGVNb2NoYSIsInJlcXVpcmUiLCJtb2R1bGUiLCJleHBvcnRzIl0sIm1hcHBpbmdzIjoiOztBQUFBLE1BQU07QUFBRUEsRUFBQUE7QUFBRixJQUFlQyxPQUFPLENBQUMsYUFBRCxDQUE1Qjs7QUFFQUMsTUFBTSxDQUFDQyxPQUFQLEdBQWlCLElBQUlILFFBQUosRUFBakIiLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCB7IElkZU1vY2hhIH0gPSByZXF1aXJlKCcuL2lkZS1tb2NoYScpXG5cbm1vZHVsZS5leHBvcnRzID0gbmV3IElkZU1vY2hhKClcbiJdfQ==
