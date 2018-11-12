@@ -25,6 +25,12 @@ class Linter extends Disposable {
 
   didFailTest({ test, err }) {
     const callsite = mkcallsite(err)
+
+    // If we have no viable error location do not show the error in diagnostics 🤷‍♂️
+    if (!callsite) {
+      return
+    }
+
     callsite.file = path.resolve(this.#root, callsite.file)
     callsite.line--
 
