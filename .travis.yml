@@ -13,8 +13,7 @@ before_install:
   - touch package.json
 
 install:
-  - make install
-  - make precompile
+  - make
 
 script:
   - make lint
