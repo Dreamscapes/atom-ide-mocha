@@ -1,0 +1,34 @@
+---
+sudo: false
+dist: trusty
+language: node_js
+node_js:
+  - '10'
+
+cache:
+  directories:
+    - node_modules
+
+before_install:
+  - touch package.json
+
+install:
+  - make install
+  - make precompile
+
+script:
+  - make lint
+
+env:
+  global:
+    # ATOM_TOKEN
+    - secure: XFsTpbbOoPvAHHHlk/yXl9XLRWaQs7kAK1Cn7vLrais2r6zZgvZXo80Lf3+dvW7KnCYwNRs+EupNBwaL55qUjSaeYvLIgjNdn66zLvfn/tXsVErAl/KjXtffhiAuewhr6PK5CiugZqRmdv0x4m6lcuys3b8dZBXcLIpohaX1CQXIOv1Ni10a9qKGtfU9A9SxUj4Dcwiig3yGwP6wBko9djXYgSUVBT6EXCrVO4T+qSU47DRGWPF1EB8AFgZruTfehSpk2PgBJ53v9IKc1OzjJaTknlXHKLJNSJLiVRe+wkxmKa06EPuToVwawJKz8TZ3HHX7Ce2jE/1GRGnfxy/oIOIRCTXk0dUz9G83RTMWZlzTWf43TyUL1XMmovZgmR5YMw1KtFyxD0+xCLToVo3/Y2vAttH63Onsbk2c0Bg6UVFq3RH1gXsiLMBdp39hrOA9Rjp0CxxoeQ6sJwxRhnKfGkJnsyIrWvGZVDXFS/JQZ6KSSiF36RbrYvrvUMc3+vIYbyMrRB6hx2ZrdxIvz45+TFQ1okppQf49/FvrRjyYw33Hv9t5K0FpGzq6U1J/pgF+UuMLAWr9kVcMGuvWyXFNPTOHJvUabnQTwsCSGK2ERyDfwBejrdURJSjMJo/clkEAdi+WvGfB6rHS0jFnyiDl/oPWzyv0lwLfwuBbF8HlBGU=
+
+deploy:
+  skip_cleanup: true
+  provider: script
+  script: utils/release.sh
+  on:
+    repo: Dreamscapes/atom-ide-mocha
+    tags: true
+    all_branches: true
