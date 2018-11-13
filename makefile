@@ -14,8 +14,10 @@ all: node_modules githooks
 
 # GENERIC TARGETS
 
+# package-lock.json breaks Atom's activation process because it thinks that fsevents, a dev dep, is
+# actually a production dep. 🤷‍♂️
 node_modules: package.json
-	npm install $(FINSTALL) && touch node_modules
+	npm install $(FINSTALL) && touch node_modules && rm package-lock.json
 
 # Default target for all possible git hooks
 .git/hooks/%: utils/githooks/%
