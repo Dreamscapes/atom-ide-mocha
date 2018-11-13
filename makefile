@@ -3,6 +3,9 @@ SHELL := sh
 export PATH := node_modules/.bin/:$(PATH)
 export NODE_OPTIONS := --trace-deprecation
 
+# Allow overriding the current distribution channel when using `make link`
+APM_BIN := apm-nightly
+
 # Modify these variables in local.mk to add flags to the commands, ie.
 # FINSTALL += --prefer-offline
 FINSTALL :=
@@ -45,6 +48,12 @@ clean:
 
 pristine: clean
 	rm -rf node_modules
+
+# Set up everything needed for local development. This expects that the atom-ide-mocha-core
+# repository is cloned next to this repository, ie. in the same parent folder. ⚠️
+link: node_modules $(GITFILES)
+	$(APM_BIN) remove ide-mocha && $(APM_BIN) link .
+	npm link ../atom-ide-mocha-core/packages/atom-ide-mocha-core .
 
 .PHONY: force
 
