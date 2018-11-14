@@ -26,7 +26,7 @@
   },
   "contributors": [],
   "dependencies": {
-    "atom-ide-mocha-core": "^1.1.2"
+    "atom-ide-mocha-core": "^1.1.3"
   },
   "devDependencies": {
     "@commitlint/cli": "^7.0.0",
