@@ -9,13 +9,13 @@
       }, {
         "label": "Print Address Info",
         "command": "ide-mocha:print-address-info"
-        }, {
-          "label": "Copy Receiver Address",
-          "command": "ide-mocha:copy-receiver-address"
-        }, {
-          "label": "Copy Mocha Command",
-          "command": "ide-mocha:copy-mocha-command"
-        }]
+      }, {
+        "label": "Copy Receiver Address",
+        "command": "ide-mocha:copy-receiver-address"
+      }, {
+        "label": "Copy Mocha Command",
+        "command": "ide-mocha:copy-mocha-command"
+      }]
     }]
   }]
 }
