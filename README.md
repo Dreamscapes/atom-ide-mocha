@@ -64,6 +64,6 @@ Please do! 🙏 If you have feedback, problems, or ideas, please open an issue a
 See the [LICENSE](LICENSE) file for information.
 
 [ide-mocha-screenshot]: https://user-images.githubusercontent.com/3058150/48307793-11e4fa80-e555-11e8-8d09-eb57969e7b8f.png
-[mocha-reporter-remote]: https://github.com/Dreamscapes/mocha-reporter-remote
+[mocha-reporter-remote]: https://github.com/Dreamscapes/atom-ide-mocha-core/tree/master/packages/mocha-reporter-remote
 [ide-mocha-gif]: https://user-images.githubusercontent.com/3058150/48307632-32ab5100-e551-11e8-90d8-8dc18891d46c.gif
 [atom-ide-ui]: https://ide.atom.io
