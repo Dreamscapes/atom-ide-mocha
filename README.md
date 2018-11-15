@@ -54,10 +54,10 @@ Please do! 🙏 If you have feedback, problems, or ideas, please open an issue a
 ## Future plans
 
 - [ ] Test suite 🤦
-- [ ] Verify that the stack traces get properly placed if enough information about the error is available
-- [ ] Monitor the general stability of the package and fix potential issues
-- [ ] Tweak and enhance general usability (ie. an Atom command to paste the Mocha command to the IDE Terminal? Or an Atom command which actually, optionally, spawns the Mocha process, just as a convenience? 🤔)
-- [ ] ... profit! 💰
+- [x] Verify that the stack traces get properly placed if enough information about the error is available
+- [x] Monitor the general stability of the package and fix potential issues
+- [x] Tweak and enhance general usability (ie. an Atom command to paste the Mocha command to the IDE Terminal? Or an Atom command which actually, optionally, spawns the Mocha process, just as a convenience? 🤔)
+- [x] ... profit! 💰
 
 ## License
 
