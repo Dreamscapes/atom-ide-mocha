@@ -7,8 +7,8 @@ export NODE_OPTIONS := --trace-deprecation
 APM_BIN := apm-nightly
 
 # Modify these variables in local.mk to add flags to the commands, ie.
-# FINSTALL += --prefer-offline
-FINSTALL :=
+# NPM_FLAGS += --prefer-offline
+NPM_FLAGS :=
 
 GITFILES := $(patsubst utils/githooks/%, .git/hooks/%, $(wildcard utils/githooks/*))
 
@@ -20,7 +20,7 @@ all: node_modules githooks
 # package-lock.json breaks Atom's activation process because it thinks that fsevents, a dev dep, is
 # actually a production dep. 🤷‍♂️
 node_modules: package.json
-	npm install $(FINSTALL) && touch node_modules && rm package-lock.json
+	npm install $(NPM_FLAGS) && touch node_modules && rm package-lock.json
 
 # Default target for all possible git hooks
 .git/hooks/%: utils/githooks/%
