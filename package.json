@@ -43,7 +43,10 @@
   "keywords": [
     "atom",
     "ide",
-    "mocha"
+    "mocha",
+    "package",
+    "test",
+    "suite"
   ],
   "license": "BSD-3-Clause",
   "main": "main/index.js",
