@@ -47,8 +47,5 @@
   ],
   "license": "BSD-3-Clause",
   "main": "main/index.js",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/Dreamscapes/atom-ide-mocha.git"
-  }
+  "repository": "https://github.com/Dreamscapes/atom-ide-mocha"
 }
