@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+set -o errexit
+set -o pipefail
+
 # The dumbest way to tell Atom that we have a new version. APM tries to do way too much for my
 # taste. 🤬
 
