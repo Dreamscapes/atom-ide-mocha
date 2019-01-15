@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.1](https://github.com/Dreamscapes/atom-ide-mocha-core/compare/atom-ide-mocha-core@2.1.0...atom-ide-mocha-core@2.1.1) (2019-01-15)
+
+
+### Bug Fixes
+
+* fall back to full title in the console when on test failure ([d180803](https://github.com/Dreamscapes/atom-ide-mocha-core/commit/d180803))
+
+
+
+
+
 # [2.1.0](https://github.com/Dreamscapes/atom-ide-mocha-core/compare/atom-ide-mocha-core@2.0.0...atom-ide-mocha-core@2.1.0) (2019-01-13)
 
 
