@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/Dreamscapes/atom-ide-mocha-core/compare/atom-ide-mocha-core@2.1.1...atom-ide-mocha-core@2.2.0) (2019-02-12)
+
+
+### Bug Fixes
+
+* properly manage package state throughout activations/deactivations ([1262bfa](https://github.com/Dreamscapes/atom-ide-mocha-core/commit/1262bfa))
+
+
+### Features
+
+* integrate atom-package-deps 📦 ([7b62eec](https://github.com/Dreamscapes/atom-ide-mocha-core/commit/7b62eec))
+
+
+
+
+
 ## [2.1.1](https://github.com/Dreamscapes/atom-ide-mocha-core/compare/atom-ide-mocha-core@2.1.0...atom-ide-mocha-core@2.1.1) (2019-01-15)
 
 
