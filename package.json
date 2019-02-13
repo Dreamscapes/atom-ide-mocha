@@ -1,7 +1,7 @@
 {
   "name": "ide-mocha",
   "description": "Send your Mocha test suite's progress to Atom and display it using Atom-IDE-UI components",
-  "version": "2.2.0",
+  "version": "2.2.0-1",
   "author": {
     "name": "Robert Rossmann",
     "email": "rr.rossmann@me.com"
@@ -50,5 +50,8 @@
   ],
   "license": "BSD-3-Clause",
   "main": "main/index.js",
+  "package-deps": [
+    "atom-ide-ui"
+  ],
   "repository": "https://github.com/Dreamscapes/atom-ide-mocha"
 }
