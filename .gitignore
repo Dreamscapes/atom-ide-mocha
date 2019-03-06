@@ -13,6 +13,9 @@ docs
 coverage
 gh-pages
 
+# Atom registry does not play well with lockfiles
+package-lock.json
+
 # Garbage
 *.log
 *~
