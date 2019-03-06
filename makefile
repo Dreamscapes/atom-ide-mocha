@@ -35,6 +35,9 @@ install: node_modules $(GITFILES)
 lint: force install
 	remark --quiet .
 
+version: force install
+	utils/version.sh
+
 outdated:
 	npm outdated || true
 
