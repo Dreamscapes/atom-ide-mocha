@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.4.0](https://github.com/Dreamscapes/atom-ide-mocha-core/compare/atom-ide-mocha-core@2.3.2...atom-ide-mocha-core@2.4.0) (2019-03-21)
+
+
+### Features
+
+* **ui:** format linter messages as code blocks ([e79810d](https://github.com/Dreamscapes/atom-ide-mocha-core/commit/e79810d))
+* **ui:** report slow tests as warnings 🐌 ([3e34e97](https://github.com/Dreamscapes/atom-ide-mocha-core/commit/3e34e97))
+
+
+
+
+
 ## [2.3.2](https://github.com/Dreamscapes/atom-ide-mocha-core/compare/atom-ide-mocha-core@2.3.1...atom-ide-mocha-core@2.3.2) (2019-03-06)
 
 **Note:** Version bump only for package atom-ide-mocha-core
