@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.5.0](https://github.com/Dreamscapes/atom-ide-mocha-core/compare/atom-ide-mocha-core@2.4.0...atom-ide-mocha-core@2.5.0) (2019-04-11)
+
+
+### Features
+
+* **ui:** use radio buttons for interface selection in config ([7caf4d6](https://github.com/Dreamscapes/atom-ide-mocha-core/commit/7caf4d6))
+
+
+
+
+
 # [2.4.0](https://github.com/Dreamscapes/atom-ide-mocha-core/compare/atom-ide-mocha-core@2.3.2...atom-ide-mocha-core@2.4.0) (2019-03-21)
 
 
