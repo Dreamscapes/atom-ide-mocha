@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.6.0](https://github.com/Dreamscapes/atom-ide-mocha-core/compare/atom-ide-mocha-core@2.5.0...atom-ide-mocha-core@2.6.0) (2019-04-11)
+
+
+### Bug Fixes
+
+* **ui:** remove ansi escape sequences from linter messages and console ([fa3aa14](https://github.com/Dreamscapes/atom-ide-mocha-core/commit/fa3aa14))
+
+
+### Features
+
+* **ui:** use a prettier formatting in the Linter's detailed description ([cb2799c](https://github.com/Dreamscapes/atom-ide-mocha-core/commit/cb2799c))
+
+
+
+
+
 # [2.5.0](https://github.com/Dreamscapes/atom-ide-mocha-core/compare/atom-ide-mocha-core@2.4.0...atom-ide-mocha-core@2.5.0) (2019-04-11)
 
 
